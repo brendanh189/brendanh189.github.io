@@ -1,5 +1,10 @@
+---
+layout: default
+---
+
 ### Connect
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/brendan-hy-199726195/)
+
 Email brendanh189@gmail.com
 
 ### About Me
