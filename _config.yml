@@ -2,3 +2,8 @@ title: "Brendan Hy"
 description: "Personal Website"
 email: brendanh189@gmail.com
 remote_theme: BDHU/minimalist
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-remote-theme
