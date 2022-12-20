@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import jwtDecode from 'jwt-decode';
+import './App.css';
 
 function App() {
   const [transactions, setTransactions] = useState([]);
@@ -61,19 +62,18 @@ function App() {
   }
 
   return (
-    <div>
-      {error && <p>{error}</p>}
-      {user ? (
-        <>
-          <p>Welcome, {user.email}</p>
-          <button onClick={logout}>Logout</button>
-          <button onClick={fetchTransactions}>Refresh Transactions</button>
-          <ul>
-            {transactions.map(transaction => (
-              <li key={transaction.id}>{transaction.description}: {transaction.amount}</li>
-            ))}
-          </ul>
-          <form onSubmit={addTransaction}>
-            <label htmlFor="description">Description:</label>
-            <input type="text" name="description" />
-            <label htmlFor="amount">Amount:</label
+    <div className="app">
+      <header className="app-header">
+        <h1 className="app-title">Transaction Tracker</h1>
+        {user && (
+          <div className="user-info">
+            <p className="user-email">{user.email}</p>
+            <button className="btn btn-secondary" onClick={logout}>Logout</button>
+          </div>
+        )}
+      </header>
+      <main className="app-main">
+        {error && <p className="error-message">{error}</p>}
+        {user && (
+          <>
+            <button className="btn btn-secondary refresh-button" onClick={fetchTransactions
