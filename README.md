@@ -4,7 +4,7 @@ Hi! My name is Brendan Hy and I am a senior at UC Berkeley studying computer sci
 ### Projects
 - Reactle (Based on NY Times Wordle)
   - Play [here](https://brendanh189.github.io/wordle-react/)!
-![test](wordle-app.jpg)
+# ![test](wordle-app.jpg)
 - Movie Night (Movie and TV Show selector)
   - Check it out [here](https://brendanh189.github.io/movies/)!
 ![test](movie-pic.jpg)
