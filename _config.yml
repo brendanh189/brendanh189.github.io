@@ -3,6 +3,9 @@ title: "Brendan Hy"
 favicon: true
 remote_theme: BDHU/minimalist
 plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
   - jekyll-remote-theme
 sidebar:
   - name: Resume
