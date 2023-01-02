@@ -1,7 +1,7 @@
 logo: graduation_pic.jpg
 title: "Brendan Hy"
 email: brendanh189@gmail.com
-remote_theme: BDHU/minimalist
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
